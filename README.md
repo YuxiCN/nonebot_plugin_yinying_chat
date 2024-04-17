@@ -25,6 +25,11 @@
   ```
   plugin_dirs = ["xxxxxx","xxxxxx",......,"下载完成的插件路径/nonebot-plugin-yinying-chat"]
   ```
+  在config.py文件中添加对应变量
+  
+  ```
+  启动！
+  
 
 # 使用方法
 
