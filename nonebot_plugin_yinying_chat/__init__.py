@@ -15,11 +15,13 @@ from nonebot.plugin import PluginMetadata
 plugin_metadata = PluginMetadata(
     name="Yuanluo", 
     description="这是一个通过调用银影API来和银影聊天的插件",  
-    type="application",
     usage="快来和银影聊天吧~", 
+    type="application"
     homepage="https://github.com/YuxiCN/nonebot_plugin_yinying_chat",
-    supported_adapters={"~onebot.v11"}
-    
+    config=Config,
+    supported_adapters={"
+                    ~onebot.v11"
+    },
 )
 
 # 配置导入
