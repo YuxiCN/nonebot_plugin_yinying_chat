@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-yinying-chat"
-version = "1.1.8"
+version = "2.0"
 description = "A nonebot plugin for yinying-chat"
 authors = ["Yuanluo <3313512421@qq.com>"]
 license = "MIT"
