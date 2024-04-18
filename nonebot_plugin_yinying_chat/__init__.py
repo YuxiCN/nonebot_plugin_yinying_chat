@@ -1,6 +1,8 @@
 import aiohttp
 import random
 import string
+import nonebot
+
 from nonebot import on_command, on_message, get_plugin_config
 from nonebot.adapters import Bot
 from nonebot.adapters.cqhttp.event import PrivateMessageEvent, GroupMessageEvent
