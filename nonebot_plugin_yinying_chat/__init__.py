@@ -6,7 +6,7 @@ import nonebot
 from nonebot import on_command, on_message, get_plugin_config
 from nonebot.adapters import Bot
 from nonebot.adapters.onebot.v11 import PrivateMessageEvent, GroupMessageEvent
-from .chat import get_answer
+from .ChatNew import get_answer
 from nonebot.plugin import Plugin, PluginConfig, PluginManager, on_command, CommandSession, MessageSession, CommandHandler
 from .chat import (
     chat_text,
