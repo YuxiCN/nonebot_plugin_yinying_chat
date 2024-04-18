@@ -15,6 +15,10 @@ from .chat import (
     finish_with_at,
     get_request,
 )
+
+import json,datetime
+chat_config = get_plugin_config(Config)
+
 # 定义插件元数据
 plugin_metadata = PluginMetadata(
     name="Yuanluo", 

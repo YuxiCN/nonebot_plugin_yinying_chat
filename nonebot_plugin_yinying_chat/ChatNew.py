@@ -1,3 +1,4 @@
+# -- coding: utf-8 --**
 import nonebot
 import aiohttp
 import random
@@ -6,10 +7,9 @@ import string
 from nonebot import on_command, CommandSession, get_plugin_config
 from nonebot.adapters import Bot
 from nonebot.adapters.cqhttp.event import MessageEvent, PrivateMessageEvent, GroupMessageEvent
-from .chat import get_answer
 
 # ªÒ»°≤Âº˛≈‰÷√
-config = get_plugin_config("Hx_YinYing")
+config = get_plugin_config("Yuanluo")
 yinying_api_key = config.yinying_api_key
 yinying_model_name = config.yinying_model_name
 yinying_app_id = config.yinying_app_id
