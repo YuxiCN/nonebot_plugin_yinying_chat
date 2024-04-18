@@ -47,4 +47,4 @@ yinying_app_id: Optional[str] = ""    #在这里输入AppID
 
 enable_private_chat: bool = True    #是否开启私聊
 	
-yinying_chat_public: bool = False  # 群聊是否开启公共会话# nonebot_plugin_yinying_chat
+yinying_chat_public: bool = False  # 群聊是否开启公共会话#
