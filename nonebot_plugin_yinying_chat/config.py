@@ -1,5 +1,6 @@
 from pydantic import Extra, BaseModel
 from typing import Optional
+import nonebot
 
 
 #定义配置文件
