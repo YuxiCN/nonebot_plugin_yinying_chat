@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='nonebot-plugin-yinying-chat',
-    version='1.1.2',
+    version='1.1.3',
     description='A nonebot plugin for yinying-chat',
     author='Yuanluo',
     author_email='3313512421@qq.com',
