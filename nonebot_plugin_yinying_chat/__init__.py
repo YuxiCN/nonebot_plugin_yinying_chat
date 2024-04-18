@@ -14,9 +14,8 @@ from nonebot.plugin import PluginMetadata
 # 定义插件元数据
 plugin_metadata = PluginMetadata(
     name="MyPlugin", 
-    description="这是一个通过调用银影API来和银影聊天的插件", 
-    author="Yuanluo",  
-    version="1.0.4", 
+    description="这是一个通过调用银影API来和银影聊天的插件",  
+    version="1.0.5", 
     type="application",
     usage="快来和银影聊天吧~", 
     homepage="https://github.com/YuxiCN/nonebot_plugin_yinying_chat",
