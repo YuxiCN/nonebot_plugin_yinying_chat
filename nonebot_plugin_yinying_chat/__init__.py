@@ -22,9 +22,6 @@ plugin_metadata = PluginMetadata(
     
 )
 
-# 将插件元数据注册到 NoneBot 框架中
-nonebot.load_plugin_metadata(plugin_metadata)
-
 # 配置导入
 plugin_config = Config.parse_obj(nonebot.get_driver().config.dict())
 
