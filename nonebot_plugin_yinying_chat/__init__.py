@@ -19,8 +19,8 @@ plugin_metadata = PluginMetadata(
     type="application"
     homepage="https://github.com/YuxiCN/nonebot_plugin_yinying_chat",
     config=Config,
-    supported_adapters={"
-                    ~onebot.v11"
+    supported_adapters={
+        "~onebot.v11"
     },
 )
 
