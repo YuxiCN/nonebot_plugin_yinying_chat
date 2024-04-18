@@ -9,8 +9,23 @@ from nonebot.adapters.onebot.v11 import Message, MessageSegment, Bot
 from nonebot.adapters.onebot.v11.event import Event, MessageEvent, PrivateMessageEvent,GroupMessageEvent
 from .config import Config, ConfigError
 from .ChatSession import ChatSession
+from nonebot.plugin import PluginMetadata
 
+# 定义插件元数据
+plugin_metadata = PluginMetadata(
+    name="MyPlugin", 
+    description="这是一个通过调用银影API来和银影聊天的插件", 
+    author="Yuanluo",  
+    version="1.0.4", 
+    type="application",
+    usage="快来和银影聊天吧~", 
+    homepage="https://github.com/YuxiCN/nonebot_plugin_yinying_chat",
+    supported_adapters={"~onebot.v11"}
+    
+)
 
+# 将插件元数据注册到 NoneBot 框架中
+nonebot.load_plugin_metadata(plugin_metadata)
 
 # 配置导入
 plugin_config = Config.parse_obj(nonebot.get_driver().config.dict())
