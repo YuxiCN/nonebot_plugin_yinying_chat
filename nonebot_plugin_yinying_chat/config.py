@@ -13,3 +13,5 @@ class Config(BaseModel, extra=Extra.ignore):
 
 class ConfigError(Exception):
     pass
+
+global_config = nonebot.get_driver().config
