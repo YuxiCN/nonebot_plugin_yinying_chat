@@ -13,22 +13,26 @@
 
 - 本插件适配银影API，可以在nonebot中调用的银影API，可根据调用配置自定义模型进行回复。
 
-# 安装
+##  安装
 
-* 手动安装
-  ```
-  将该文件夹拖入/plugins文件夹内
-  ```
+<details>
+<summary>使用 nb-cli 安装</summary>
+在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-  后在bot项目的pyproject.toml文件手动添加插件：
+    nb plugin install nonebot-plugin-yinying-chat
 
-  ```
-  plugin_dirs = ["xxxxxx","xxxxxx",......,"下载完成的插件路径/nonebot-plugin-yinying-chat"]
-  ```
-  在config.py文件中添加对应变量
-  
-  ```
-  启动！
+</details>
+
+<details>
+<summary>使用包管理器安装</summary>
+在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
+
+<details>
+<summary>pip</summary>
+
+    pip install nonebot-plugin-yinying-chat
+</details>
+<details>
   
 
 # 使用方法
