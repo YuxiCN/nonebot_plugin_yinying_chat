@@ -22,7 +22,7 @@ chat_record = on_command("chat", block=False, priority=1)
 async def chat(session: CommandSession):
     # 若未开启私聊模式则检测到私聊就结束
     if isinstance(session.event, PrivateMessageEvent) and not config.enable_private_chat:
-        await session.finish("对不起，私聊暂不支持此功能。")
+        await session.finish("暂时不支持这个功能哦~")
 
     # 检测是否填写 API key
     if yinying_api_key == "":
