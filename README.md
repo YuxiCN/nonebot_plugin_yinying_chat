@@ -31,6 +31,19 @@ enable_private_chat: bool = True    #是否开启私聊
 	
 yinying_chat_public: bool = False  # 群聊是否开启公共会话#
 
+以下为配置示例：
+YINYING_API_KEY=xxx-xxxxx
+
+YINYING_MODEL_NAME=yinyingllm-v2
+
+YINYING_APP_ID=xxxxx
+
+ENABLE_PRIVATE_CHAT=True
+
+YINYING_CHAT_PUBLIC=False
+
+
+
 
 ##  安装
 
