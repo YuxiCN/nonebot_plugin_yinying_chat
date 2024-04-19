@@ -12,10 +12,20 @@
 
 # 介绍
 
-[!WARNING]- 本插件适配银影API，可以在nonebot中调用的银影API，可根据调用配置自定义模型进行回复。
-[!WARNING]- 本插件使用时需要提供对应API和AppId，如果没有对应的，需要联系银影开发者秩乱申请API，才可以使用
-[!WARNING]- 银影官网为：https://chat.wingmark.cn/，银影官方QQ群：175334224，秩乱的联系方式（QQ）：1660466270
-[!WARNING]- 使用本插件和银影API时，需遵守法律法规及https://wingmark.feishu.cn/docx/NFgJddgQAotygKxXiu6cpyg5nqr文档内的API使用规范
+  本插件适配银影API，可以在nonebot中调用的银影API，可根据调用配置自定义模型进行回复。
+
+> [!WARNING]
+> 本插件使用时需要提供对应API和AppId，如果没有对应的，需要联系银影开发者秩乱申请API，才可以使用
+
+> [!WARNING]
+> 银影[官网链接](https://chat.wingmark.cn/)，银影官方QQ群：175334224，秩乱的联系方式（QQ）：1660466270
+
+> [!WARNING]
+> 使用本插件和银影API时，需遵守相关法律法规及在使用本插件和银影API时，请务必遵守相关法律法规及[API使用规范](https://wingmark.feishu.cn/docx/Zk5RdCKSRoBnH8xI3jfcTXBEnXe)
+
+> [!WARNING]
+> 如因未遵守相关法律法规和API使用规范，造成的一切后果均由插件使用者承担，开发者不承担任何责任
+
 # 使用方法
 
 - chat 使用该命令进行聊天
@@ -35,6 +45,16 @@ ENABLE_PRIVATE_CHAT=
 
 YINYING_CHAT_PUBLIC=
 
+
+配置文件示例：
+
+```dotenv
+YINYING_API_KEY=你的APIKEY
+YINYING_MODEL_NAME=模型名称
+YINYING_APP_ID=你的AppId
+ENABLE_PRIVATE_CHAT=True
+YINYING_CHAT_PUBLIC=False
+```
 
 
 ##  安装
