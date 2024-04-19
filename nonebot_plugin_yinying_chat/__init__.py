@@ -13,7 +13,7 @@ from nonebot.plugin import PluginMetadata
 
 
 # 定义插件元数据
-plugin_metadata = PluginMetadata(
+__plugin_metadata__ = PluginMetadata(
     name="Yuanluo", 
     description="这是一个通过调用银影API来和银影聊天的插件",  
     type="application",
