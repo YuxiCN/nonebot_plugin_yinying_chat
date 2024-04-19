@@ -14,7 +14,7 @@ from nonebot.plugin import PluginMetadata
 
 # 定义插件元数据
 __plugin_meta__ = PluginMetadata(
-    name="Yuanluo", 
+    name="Yinying-Chat", 
     description="这是一个通过调用银影API来和银影聊天的插件",  
     type="application",
     usage="快来和银影聊天吧~", 
