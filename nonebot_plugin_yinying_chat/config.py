@@ -1,10 +1,10 @@
-from pydantic import Extra, BaseModel
+from pydantic import BaseModel
 from typing import Optional
 import nonebot
 
 
 #定义配置文件
-class Config(BaseModel, extra=Extra.ignore):
+class Config(BaseModel):
     yinying_api_key: Optional[str] = "" # 在这里输入银影APIKEY
     yinying_model_name: Optional[str] = "" #在这里输入模型名称
     yinying_app_id: Optional[str] = ""    #在这里输入AppID
