@@ -325,14 +325,6 @@ type = "legacy"
 url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
 reference = "tsinghua"
 
-[[package]]
-name = "openai"
-version = "0.27.0"
-description = "Python client library for the OpenAI API"
-category = "main"
-optional = false
-python-versions = ">=3.7.1"
-
 [package.dependencies]
 aiohttp = "*"
 requests = ">=2.20"
@@ -1001,10 +993,6 @@ nonebot-adapter-onebot = [
 nonebot2 = [
     {file = "nonebot2-2.0.0rc3-py3-none-any.whl", hash = "sha256:6596e9837e95e99a6cfa7c4e21d75a54a5f3529d34f30454136ebfef6aa374f4"},
     {file = "nonebot2-2.0.0rc3.tar.gz", hash = "sha256:a16da07b7c764d536cbdf9bcb86eb7cc21b1d254c966552ec5d20e0cb303cec2"},
-]
-openai = [
-    {file = "openai-0.27.0-py3-none-any.whl", hash = "sha256:7d4066ea529658a1f1696a8766912b3f3b7139faca860dc530bf102f0b19d42c"},
-    {file = "openai-0.27.0.tar.gz", hash = "sha256:0efa486016283607cb72c23eac346ac739a22613ff4bff101df72a138cb2de60"},
 ]
 pydantic = [
     {file = "pydantic-1.10.5-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:5920824fe1e21cbb3e38cf0f3dd24857c8959801d1031ce1fac1d50857a03bfb"},
